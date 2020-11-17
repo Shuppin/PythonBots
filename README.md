@@ -1,12 +1,8 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 
 # The Bot Library
 
 <p align="center">
-  <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <img src="images/logo.png" alt="Logo" width="300" height="300">
 
 The Bot Library is a python program which enables you to 'bot' things, i.e. let a robot do it for you.
 
