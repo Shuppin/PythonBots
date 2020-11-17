@@ -7,7 +7,11 @@
 The Bot Library is a python program which enables you to 'bot' things, i.e. let a robot do it for you.
 
 #### Current features:
+
 - KahootBot
+  - Flood Bots
+  - Answer Bot
+
 - Interactive Console
 
 
