@@ -3,12 +3,11 @@
 # WELCOME TO MY CULMINATION OF PYTHON BOTS WRAPPED INTO ONE PROGRAM
 # Have fun! (Please don't heavily misuse this program)
 
-__version__ = "1.1.4"
+__version__ = "1.1.5"
 
 # Default Imports
 
 import random # Obvious use cases
-import sys
 import time as t # Used to slow down the program a little for reading messages etc.. 
 import os # Used to reload program
 from importlib import reload, import_module
@@ -173,7 +172,7 @@ def Console(console=None): # A cool little console which adds certain features f
                             print(" Usage: execute kahootbot(<pin>, <username>, <quizname>)")
                         else:
                             print(" Runs a specified function")
-                            print(" Usage: execute <process> [pid:<process id>]")
+                            print(" Usage: execute <process> OR execute [pid:<process id>]")
                             while True:
                                 try:
                                     print(" Would you like to see the currently available proceses? (Y/N)")
