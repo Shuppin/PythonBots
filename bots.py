@@ -51,9 +51,6 @@ devkey = key.read()
 
 colorama.init(autoreset=True)
 
-def test():
-    print("test")
-
 def Console(console=None): # A cool little console which adds certain features for monitoring the program during runtime
 
     consoleSyntaxOne = c.BLUE + " bots@main"
