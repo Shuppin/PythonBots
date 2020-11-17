@@ -38,7 +38,7 @@ try:
     from colorama import Fore as c, Back, Style
 except ImportError:
     print(" Please make sure you have Colorama installed before running this program")
-    print(" This library can be found at https://pypi.org/project/KahootPY/")
+    print(" This library can be found at https://pypi.org/project/colorama/")
     raise ImportError
     #exit()
 
