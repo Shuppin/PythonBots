@@ -10,7 +10,6 @@ __version__ = "1.1.5"
 import random # Obvious use cases
 import time as t # Used to slow down the program a little for reading messages etc.. 
 import os # Used to reload program
-from importlib import reload, import_module
 
 # 3rd Party Imports
 
