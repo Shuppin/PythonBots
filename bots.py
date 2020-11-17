@@ -1,7 +1,7 @@
 # Credit to @TheUsaf and his team for the Kahoot! answer bot and KahootPY library
 
 # WELCOME TO MY CULMINATION OF PYTHON BOTS WRAPPED INTO ONE PROGRAM
-# Have fun! (Please don't heavly misuse this program)
+# Have fun! (Please don't heavily misuse this program)
 
 __version__ = "1.1.4"
 
