@@ -24,6 +24,7 @@ except ImportError:
 try: # Try & Catch for 'selenium' import
     import selenium  # pip install selenium
     from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
     from selenium.webdriver.common.by import By
     from selenium.webdriver.common.keys import Keys
 except ImportError: 
@@ -316,8 +317,9 @@ class KahootBot: # KahootBot class in all its glory
         print(" Please be patient (Chrome will minimise itself)")
         t.sleep(0.5) # Give the user time to read the message above
 
-        print(" ", end = '')
-        driver = webdriver.Chrome('C:\\webdrivers\\chromedriver.exe') # Load the chrome webdriver, used for interacting with Google Chrome, the double backslash represents one '\', but in python backslash is an escape character so you need two of them to cancel one out
+
+        chrome_options = Options()
+        driver = webdriver.Chrome(options=chrome_options) # Load the chrome webdriver, used for interacting with Google Chrome, the double backslash represents one '\', but in python backslash is an escape character so you need two of them to cancel one out
         driver.minimize_window() # Minimises the chrome window once it has loaded 
 
         t.sleep(1) # Give selenium time to minimise the chrome window as it can take upto a second a slow device.
@@ -993,5 +995,5 @@ class KahootBot: # KahootBot class in all its glory
                     print(c.YELLOW + f" self.quiz_name has been identified as none, {self.quiz_name}")
 
 if __name__ == "__main__":
-    Console("help")
+    Console()
 
