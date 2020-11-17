@@ -1,4 +1,3 @@
-# Copyright © 2020 Shuppin's Resources CIC
 # Credit to @TheUsaf and his team for the Kahoot! answer bot and KahootPY library
 
 # WELCOME TO MY CULMINATION OF PYTHON BOTS WRAPPED INTO ONE PROGRAM
@@ -99,7 +98,7 @@ def Console(console=None): # A cool little console which adds certain features f
     print(c.CYAN + "                     Version: " + c.RED + __version__)
     print(c.CYAN + "                   Codename: '" + c.YELLOW + "Mercury" + c.CYAN + "'")
 
-    print(c.BLUE + " [---]" + c.CYAN + "  Copyright © 2020 Shuppin's Resources CIC  " + c.BLUE + "[---]")
+    print(c.BLUE + " [---]    " + c.YELLOW + "https://github.com/Shuppin/PythonBots" + c.BLUE + "   [---]")
     print(c.BLUE + " [---]" + c.CYAN + "       Credit to @TheUsaf for KahootPY      " + c.BLUE + "[---]")
 
     print("")
