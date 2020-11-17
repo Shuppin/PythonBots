@@ -5,14 +5,12 @@
 
 __version__ = "1.1.4"
 
-devkey = "x86devoverride" # Don't read this (please)
-
 # Default Imports
 
 import random # Obvious use cases
 import sys
 import time as t # Used to slow down the program a little for reading messages etc.. 
-import os # Used to relaod program
+import os # Used to reload program
 from importlib import reload, import_module
 
 # 3rd Party Imports
@@ -44,6 +42,11 @@ except ImportError:
     print(" This library can be found at https://pypi.org/project/KahootPY/")
     raise ImportError
     #exit()
+
+# Read devkey from file 'password.txt'
+
+key = open(os.path.join(os.path.dirname(__file__), "password.txt") , 'r')
+devkey = key.read()
 
 # Colorama initialisation
 
