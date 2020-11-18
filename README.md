@@ -15,7 +15,13 @@ The Bot Library is a python program which enables you to 'bot' things, i.e. let 
 - Interactive Console
 
 
-## Libraries needed  - !!! IMPORTANT !!!
+## Requirements  - !!! IMPORTANT !!!
+
+Firstly, you will need chromedriver which can be found [here](https://chromedriver.chromium.org/)
+
+Then you will need to add it to path
+
+## Python Libraries
 
 Using the package manager [pip](https://pip.pypa.io/en/stable/) you will need to install the following
 
